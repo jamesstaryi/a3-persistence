@@ -2,7 +2,41 @@
 
 Glitch link: http://a3-jamesstaryi.glitch.me
 
+**Accounts to login with**:
+
+Account 1:
+- Username: user1
+- Password: pass1
+
+Account 2:
+- Username: user2
+- Password: pass2
+
 This is a pretty simple and straightforward website to keep track of one's todo list. A user can input a todo item and also the corresponding due date(or leave it blank). It then adds it the the list at the bottom of the page. The user can then check off completed actions, inline edit the todo item, view the item's urgency, or delete the todo item.
+
+## Baseline Requriements
+- Server using Express
+- Results functioanlity which shows data associated with a user
+- Form/Entry functionality that allows user to add, modify(can edit TODO text only), delete items associated with the account
+- Persistent data storage using mongodb
+- CSS Framework of Water.css
+
+HTML:
+- input and checkboxes used
+- display of data for the logged in user
+
+CSS:
+- CSS styling from Water.css with minor other css
+
+JavaScript:
+- get/fetch from the server
+
+Node.js:
+- Server using Express and database of mongodb
+
+General:
+- 100% on Performance, Best Practices, Accessibility, and SEO using Google Lighthouse
+
 
 **Application Goal**: To allow users to keep track of things that they need to do.
 
@@ -36,5 +70,3 @@ This is a pretty simple and straightforward website to keep track of one's todo 
   10. Help users avoid and correct mistakes: Errors shown on login page when mistakes occur
   11. Reflect the reading order in the code order: Code is ordered the same way as the reading order
   12. Ensure that all interactive elements are keyboard accessible: Everything can be accessed by just the keyboard
-  
-- **Design Achievement 1**: 
