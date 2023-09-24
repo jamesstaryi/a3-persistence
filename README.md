@@ -54,7 +54,9 @@ General:
 - express-handlebars: template engine that replaces variables in a template file with actual values
 
 ## Technical Achievements
-- **Lighthouse 100%**: 100% on all four lighthouses, provided screenshots in repo.
+- **Lighthouse 100%**: 100% on all four lighthouses
+![Alt text](/lighthouseLogin.png?raw=true)
+![Alt text](/lighthouseMain.png?raw=true)
 
 ### Design/Evaluation Achievements
 - **Twelve Site Accessible Tips**: 
