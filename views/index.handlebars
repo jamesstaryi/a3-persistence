@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My TODO List</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Login page to access TOODO list." />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
+    <!-- get rid of favicon error -->
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <h1><span id="usernamePlaceholder">MY</span>'s TODO LIST</h1>
+        <label for="todo">TODO</label>
+        <input class="textbox" type="text" id="todo" />
+        <label for="date">Due Date</label>
+        <input class="textbox" type="date" id="date" />
+        <div class="button">
+          <button id="add">Add</button>
+        </div>
+      </form>
+    </div>
+    <br>
+    <div class="container">
+      <h2>TODO</h2>
+    </div>
+    <div class="container">
+      <ul id="todoList"></ul>
+    </div>
+  </body>
+</html>

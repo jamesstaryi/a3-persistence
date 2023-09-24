@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login - TODO List</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Login page to access TOODO list." />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="container">
+    <img src="https://cdn-icons-png.flaticon.com/512/1950/1950715.png" alt="TODO List Icon">
+    </div>
+    <div class="container">
+    <form action="/login" method="POST">
+      <h1>Please sign in</h1>
+      <label for="inputUsername" class="sr-only">Username</label>
+      <input type="text" name="username" id="inputUsername" class="form-control" placeholder="Username" required="" autofocus="">
+      <label for="inputPassword" class="sr-only">Password</label>
+      <input type="password" name="password" id="inputPassword" placeholder="Password" required="">
+      <br>
+      <input id="submit" type="submit" value="Login">
+    </form>    
+   </div>
+    <div style="text-align: center;">
+      {{{msg}}}
+    </div>
+  </body>
+</html>
